@@ -43,14 +43,14 @@ body{
 
 .titulo_centralizado {
     text-align: center;
-    padding: 10px;
+    padding: 2%;
     font-family: arial;
 }
 
 p{
     font-size: 16px;
     text-align: justify;
-    padding: 5px;
+    padding: 2%;
     margin-left: 10%;
     margin-right: 10%;
     font-family: arial;
@@ -58,7 +58,7 @@ p{
 
 #destaque{
     font-size: 20px;
-    padding: 10px;
+    padding: 2%;
     font-family: arial;
     display: inline-block;
 }
