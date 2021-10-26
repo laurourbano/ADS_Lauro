@@ -81,14 +81,14 @@ em strong {
     flex-flow: row wrap;
     color: rgb(32, 16, 75);
     font-family: arial;
-    font-size: 25px;
+    font-size: 20px;
 }
 .container ul {
   list-style-type: none;
 }
 
 .container ul li {
-  margin-top: 7px;
+  margin-top: none;
   padding-bottom: 3px;
   border-bottom: 1px solid #6f73aa;
 }
