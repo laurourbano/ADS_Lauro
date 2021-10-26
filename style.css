@@ -72,18 +72,22 @@ em strong {
 .container {
     margin-left: auto;
     margin-right: auto;
-    max-width: 500px;
+    justify-content: center;
+    padding: none;
+    max-width: 50%;
     display: flex;
     flex-flow: row wrap;
     color: rgb(26, 22, 87);
     font-family: arial;
     font-size: 20px;
+    background: rgb(189, 188, 188);
+    border-radius: 20px;
 }
 .container ul {
   list-style-type: none;
 }
 
 .container ul li {
-  margin-top: none;
   border-bottom: 1px solid #14195a;
+  margin-right: 25px;
 }
