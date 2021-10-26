@@ -1,9 +1,10 @@
 body{
     background-image: url(1.jpg);
+    position: fixed;
     background-position: center, center;
     background-color: #d2d2c5 ;
     width: 100%;
-    height: adjust;
+    height: auto;
     background-repeat: repeat-y;
     background-attachment: scroll;
     font-family: arial;
@@ -19,7 +20,7 @@ body{
     font-family: arial;
     background-color: rgb(231, 226, 226);
     font-family: arial;
-}
+    margin-bottom: 5%;}
 
 .media-object{
     margin-left: 90px;
@@ -33,20 +34,25 @@ body{
 
 .titulo_principal{
     font-family: arial;
-    margin-left: 15%;
-    border-radius: 35%;
+    padding-left: 10%;
+    margin-left: 10%;
+    border-radius: 20px;
+    max-width: 70%;
+    background: rgb(206, 203, 203);
 }
 
 .titulo_centralizado {
     text-align: center;
-    padding: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
     font-family: arial;
 }
 
 p{
+    padding-left: 2%;
+    padding-right: 2%;
     font-size: 16px;
     text-align: justify;
-    padding: 2%;
     margin-left: 10%;
     margin-right: 10%;
     font-family: arial;
@@ -54,13 +60,14 @@ p{
 
 #destaque{
     font-size: 15px;
-    padding: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
     font-family: arial;
     display: inline-block;
 }
 
 em strong {
-    color: rgb(32, 16, 75);
+    color: rgb(3, 0, 8);
     font-family: arial;
 }
 
@@ -77,10 +84,10 @@ em strong {
     max-width: 50%;
     display: flex;
     flex-flow: row wrap;
-    color: rgb(26, 22, 87);
+    color: rgb(30, 29, 31);
     font-family: arial;
     font-size: 20px;
-    background: rgb(189, 188, 188);
+    background: rgb(206, 203, 203);
     border-radius: 20px;
 }
 .container ul {
@@ -88,6 +95,6 @@ em strong {
 }
 
 .container ul li {
-  border-bottom: 1px solid #14195a;
+  border-bottom: 1px solid #343438;
   margin-right: 25px;
 }
