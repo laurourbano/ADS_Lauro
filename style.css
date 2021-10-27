@@ -1,6 +1,6 @@
 header{
     background-color: linear-gradient(rgba(222, 222, 222, 0.7), rgba(222, 222, 222, 0.7));
-    padding: 20px;
+    padding: 10px 70px;
     color: #000;
 }
 
@@ -15,8 +15,11 @@ body{
 
 .box{
     border: 1px solid rgb(76, 76, 145);
+    border-radius: 30px;
+    max-width: 90%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 2%;
     opacity: 90%;
     font-family: arial;
     background-color: linear-gradient(rgba(222, 222, 222, 0.7), rgba(222, 222, 222, 0.7)), rgba(222, 222, 222, 0.7), 0.9;
@@ -54,16 +57,16 @@ body{
     top: 0;
     left: 0;
     opacity: 80%;
-    border: 1px solid #000;
+    border: 1px solid rgb(76, 76, 145);
     border-radius: 50%;
     display: inline;
     margin-left: auto;
     margin-right: auto;
     padding: 0;
-    margin: 30px;
+    margin: 10px;
     max-width: 150px;
     max-height: 150px;
-    }
+}
       
 p{
     font-size: 16px;
