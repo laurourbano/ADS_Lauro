@@ -1,6 +1,5 @@
 body{
-    background-image: url(1.jpg);
-    position: sticky;
+    background-image: linear-gradient(rgba(76, 78, 194, 0.4), rgba(76, 78, 194, 0.4)), url(1.jpg);    position: sticky;
     background-position: center, center;
     background-color: #d2d2c5;
     width: 100%;

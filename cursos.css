@@ -1,0 +1,20 @@
+body{
+    background-image: linear-gradient(rgba(76, 78, 194, 0.4), rgba(76, 78, 194, 0.4)), url(1.jpg);
+    position: sticky;
+    background-position: center, center;
+    background-color: #d2d2c5;
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: arial;
+}
+img{
+    opacity: 0.5;
+}
+.titulo-principal{
+    text-align: center;
+    background-color: rgb(231, 226, 226);
+    width: auto;
+    padding: 1%;
+}
