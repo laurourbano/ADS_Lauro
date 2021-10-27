@@ -1,24 +1,25 @@
+header{
+    background-color: linear-gradient(rgba(222, 222, 222, 0.7), rgba(222, 222, 222, 0.7));
+    padding: 20px;
+    color: #000;
+}
+
 body{
-    background-image: linear-gradient(rgba(76, 78, 194, 0.4), rgba(76, 78, 194, 0.4)), url(1.jpg);    position: sticky;
+    background-image: linear-gradient(rgba(222, 222, 222, 0.7), rgba(222, 222, 222, 0.7)), url(1.jpg);
     background-position: center, center;
-    background-color: #d2d2c5;
-    width: 100%;
-    height: auto;
+    background-color: rgb(231, 226, 226);
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-family: arial;
 }
 
 .box{
-    width: 95%;
-    height: 100%;
     border: 1px solid rgb(76, 76, 145);
-    border-radius: 5%;
     margin-left: auto;
     margin-right: auto;
     opacity: 90%;
     font-family: arial;
-    background-color: rgb(231, 226, 226);
+    background-color: linear-gradient(rgba(222, 222, 222, 0.7), rgba(222, 222, 222, 0.7)), rgba(222, 222, 222, 0.7), 0.9;
     font-family: arial;
 }
 
@@ -27,84 +28,91 @@ body{
     margin-right: auto;
     width: 50px;
     height: 50px;
-    border-radius: 15%;
+    border-radius: 15px;
     font-family: arial;
 }
 
 .titulo_principal{
-    margin-bottom: 1%;
-    padding-bottom: 0%;
     font-family: arial;
-    padding-left: 9.5%;
-    margin-left: 2.5%;
+    font-weight: bold;
+    font-size: 40px;
     border-radius: 20px;
     opacity: 90%;
-    max-width: 85%;
-    background-color: rgb(231, 226, 226);
     color: rgb(35, 35, 36);
 }
 
 .titulo_centralizado {
     text-align: center;
-    padding-left: 2%;
-    padding-right: 2%;
     font-family: arial;
+    font-weight: bold;
+    font-size: 22px;
+    margin: 10px;
 }
 
-.img {
-    padding-right: 2%;
-    width: 150px;
-    opacity: 90%;
-    display: block;
+.foto {
+    position: relative;
+    top: 0;
+    left: 0;
+    opacity: 80%;
+    border: 1px solid #000;
+    border-radius: 50%;
+    display: inline;
     margin-left: auto;
     margin-right: auto;
+    padding: 0;
+    margin: 30px;
+    max-width: 150px;
+    max-height: 150px;
     }
       
 p{
-    padding-left: 2%;
-    padding-right: 2%;
     font-size: 16px;
     text-align: justify;
-    margin-left: 10%;
-    margin-right: 10%;
     font-family: arial;
+    margin: 0 30px 10px 30px;
 }
 
 #destaque{
     font-size: 15px;
-    padding-left: 2%;
-    padding-right: 2%;
     font-family: arial;
     display: inline-block;
+    padding: 10px;
 }
 
 em strong {
     color: rgb(3, 0, 8);
     font-family: arial;
+    font-weight: bold;
+}
+
+.curriculo {
+    font-weight: bold;
 }
 
 .itens {
-    font-style: italic;
+    font-weight: bold;
     font-family: arial;
 }
 
 .container {
-    margin-left: auto;
-    margin-right: auto;
     justify-content: center;
-    padding: none;
-    max-width: 60%;
+    max-width: 100%;
     display: flex;
     flex-flow: row wrap;
     color: rgb(30, 29, 31);
     font-family: arial;
     font-size: 18px;
     border-radius: 26px;
+    margin: 0, 0, 0, 15px;
 }
 .container ul {
-  list-style-type: none;
+    list-style-type: none;
 }
 
 .container ul li {
-  border-bottom: 1px solid #343438;
+    border-bottom: 1px solid #343438;
+    background-color: #bfc6ee;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
 }
