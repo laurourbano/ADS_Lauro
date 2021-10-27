@@ -70,13 +70,15 @@ body{
       
 p{
     font-size: 16px;
+    line-height: 1.5;
     text-align: justify;
     font-family: arial;
     margin: 0 30px 10px 30px;
 }
 
 #destaque{
-    font-size: 15px;
+    font-size: 16px;
+    line-height: 1.5;
     font-family: arial;
     display: inline-block;
     padding: 10px;
