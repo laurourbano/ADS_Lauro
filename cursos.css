@@ -13,8 +13,33 @@ img{
     opacity: 0.5;
 }
 .titulo-principal{
-    text-align: center;
+    margin-bottom: 1%;
+    padding-bottom: 0%;
+    font-family: arial;
+    padding-left: 9.5%;
+    margin-left: 2.5%;
+    border-radius: 20px;
+    opacity: 90%;
+    max-width: 85%;
     background-color: rgb(231, 226, 226);
-    width: auto;
-    padding: 1%;
+    color: rgb(35, 35, 36);
+}
+.titulos-secundarios {
+    text-align: center;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-family: arial;
+}
+
+.box{
+    width: 95%;
+    height: 100%;
+    border: 1px solid rgb(76, 76, 145);
+    border-radius: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 90%;
+    font-family: arial;
+    background-color: rgb(231, 226, 226);
+    font-family: arial;
 }
