@@ -107,7 +107,6 @@ em strong {
     color: rgb(30, 29, 31);
     font-family: arial;
     font-size: 18px;
-    border-radius: 26px;
     margin: 0, 0, 0, 15px;
 }
 .container ul {
@@ -116,7 +115,7 @@ em strong {
 
 .container ul li {
     border-bottom: 1px solid #343438;
-    background-color: #bfc6ee;
+    background-color: #c8cad88a;
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
