@@ -91,9 +91,9 @@ em strong {
     flex-flow: row wrap;
     color: rgb(30, 29, 31);
     font-family: arial;
-    font-size: 20px;
+    font-size: 18px;
     background: rgb(206, 203, 203);
-    border-radius: 20px;
+    border-radius: 26px;
 }
 .container ul {
   list-style-type: none;
