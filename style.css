@@ -1,12 +1,12 @@
 body{
     background-image: url(1.jpg);
-    position: relative;
+    position: sticky;
     background-position: center, center;
     background-color: #d2d2c5;
     width: 100%;
     height: auto;
-    background-repeat: repeat-y;
-    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-attachment: local;
     font-family: arial;
 }
 
@@ -34,13 +34,16 @@ body{
 }
 
 .titulo_principal{
+    margin-bottom: 1%;
+    padding-bottom: 0%;
     font-family: arial;
     padding-left: 10%;
     margin-left: 10%;
     border-radius: 20px;
     opacity: 90%;
     max-width: 70%;
-    background: rgb(206, 203, 203);
+    background-color: rgb(231, 226, 226);
+    color: rgb(35, 35, 36);
 }
 
 .titulo_centralizado {
