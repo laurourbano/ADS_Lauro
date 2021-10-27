@@ -1,20 +1,20 @@
 header{
-    background-color: linear-gradient(rgba(222, 222, 222, 0.315), rgba(222, 222, 222, 0.7));
+    background-color: linear-gradient(rgba(222, 222, 222, 0.712), rgba(222, 222, 222, 0.801));
     padding: 10px 70px;
     color: #000;
 }
 
 body{
-    background-image: linear-gradient(rgba(222, 222, 222, 0.7), rgba(222, 222, 222, 0.7)), url(1.jpg);
+    background-image: linear-gradient(rgba(222, 222, 222, 0.788), rgba(222, 222, 222, 0.89)), url(1.jpg);
     background-position: center, center;
-    background-color: rgb(231, 226, 226);
+    background-color: rgba(231, 226, 226, 0.836);
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-family: arial;
 }
 
 .box{
-    border: 1px solid rgb(76, 76, 145);
+    border: 1px solid rgba(76, 76, 145, 0.726);
     border-radius: 30px;
     max-width: 90%;
     margin-left: auto;
@@ -95,12 +95,11 @@ em strong {
 }
 
 .itens {
-    font-weight: bold;
     font-family: arial;
 }
 
 .container {
-    justify-content: center;
+    justify-content: space-evenly;
     max-width: 100%;
     display: flex;
     flex-flow: row wrap;
@@ -114,9 +113,8 @@ em strong {
 }
 
 .container ul li {
-    border-bottom: 1px solid #343438;
-    background-color: #c8cad88a;
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
+    color: #000000;
 }
