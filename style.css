@@ -35,6 +35,10 @@ body{
     font-family: arial;
 }
 
+img{
+    list-style-image: none;
+}
+
 .titulo_principal{
     font-family: arial;
     font-weight: bold;
@@ -109,6 +113,7 @@ em strong {
     font-size: 18px;
     margin: 0, 0, 0, 15px;
 }
+
 .container ul {
     list-style-type: none;
 }
