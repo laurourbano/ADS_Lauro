@@ -14,7 +14,6 @@ body{
 }
 
 .box{
-    border: 1px solid rgba(76, 76, 145, 0.726);
     border-radius: 30px;
     max-width: 90%;
     margin-left: auto;
@@ -57,7 +56,6 @@ body{
     top: 0;
     left: 0;
     opacity: 80%;
-    border: 1px solid rgb(76, 76, 145);
     border-radius: 50%;
     display: inline;
     margin-left: auto;
