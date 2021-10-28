@@ -1,7 +1,7 @@
 header{
-    background-color: linear-gradient(rgba(222, 222, 222, 0.712), rgba(222, 222, 222, 0.801));
-    padding: 10px 90px;
-    color: #000;
+margin-left: 110px;
+padding-top: 10px;
+color: #000;
 }
 
 body{
@@ -118,6 +118,8 @@ em strong {
     padding: 10px;
     color: #000000;
 }
-.links{
-    align-items: center;
+
+.links a{
+    margin-left: auto;
+    margin-right: auto;
 }
