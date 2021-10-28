@@ -1,7 +1,17 @@
 header{
     background-color: linear-gradient(rgba(222, 222, 222, 0.712), rgba(222, 222, 222, 0.801));
-    padding: 10px 70px;
+    padding: 2%;
     color: #000;
+}
+
+.box{
+    padding: auto;
+}
+
+nav ul {
+    position: absolute;
+    top: 80px;
+    left: 200px;
 }
 
 nav li {
@@ -28,26 +38,24 @@ body{
 
 img{
 border-radius: 30px;
-position: absolute;
-top: 10px;
-left: 70px;
+padding: 10px;
+display: inline;
 }
 
 .titulo-principal{
     font-family: arial;
     font-weight: bold;
-    font-size: 40px;
-    padding: 10px;
+    font-size: 26px;
     margin-left: 100px;
     border-radius: 20px;
     opacity: 90%;
-    color: rgb(35, 35, 35);
+    color: rgb(0, 0, 0);
 }
 .titulos-secundarios {
     text-align: center;
     font-family: arial;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 24px;
     margin: 10px;
 }
 
