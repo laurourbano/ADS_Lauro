@@ -35,10 +35,6 @@ body{
     font-family: arial;
 }
 
-img{
-    list-style-image: none;
-}
-
 .titulo_principal{
     font-family: arial;
     font-weight: bold;
@@ -123,4 +119,7 @@ em strong {
     margin-right: auto;
     padding: 10px;
     color: #000000;
+}
+.links{
+    image;
 }
