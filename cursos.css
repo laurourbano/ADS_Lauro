@@ -4,18 +4,15 @@ header{
     color: #000;
 }
 
-.box{
-    padding: auto;
-}
-
 nav ul {
     position: absolute;
     top: 80px;
-    left: 200px;
+    left: 220px;
 }
 
 nav li {
     display: inline;
+    font-family: sans-serif;
 }
 
 nav a{
@@ -46,7 +43,7 @@ display: inline;
     font-family: arial;
     font-weight: bold;
     font-size: 26px;
-    margin-left: 100px;
+    margin-left: 120px;
     border-radius: 20px;
     opacity: 90%;
     color: rgb(0, 0, 0);
@@ -56,11 +53,9 @@ display: inline;
     font-family: arial;
     font-weight: bold;
     font-size: 24px;
-    margin: 10px;
 }
 
 .box{
-    border: 1px solid rgba(76, 76, 145, 0.726);
     border-radius: 30px;
     max-width: 90%;
     margin-left: auto;
@@ -70,4 +65,5 @@ display: inline;
     font-family: arial;
     background-color: linear-gradient(rgba(222, 222, 222, 0.7), rgba(222, 222, 222, 0.7)), rgba(222, 222, 222, 0.7), 0.9;
     font-family: arial;
+    padding: 10px;
 }
