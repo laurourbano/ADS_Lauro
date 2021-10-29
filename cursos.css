@@ -4,9 +4,8 @@ header{
 }
 
 nav ul {
-    position: absolute;
-    top: 70px;
-    right: 10%;
+    position: relative;
+    padding: 2%;
 }
 
 nav li {
@@ -29,7 +28,7 @@ body{
     background-color: rgba(231, 226, 226, 0.836);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    font-family: arial;
+    font-family: sans-serif;
 }
 
 img{
@@ -62,9 +61,7 @@ display: inline;
     margin-right: auto;
     margin-bottom: 2%;
     opacity: 90%;
-    font-family: arial;
     background-color: linear-gradient(rgba(222, 222, 222, 0.7), rgba(222, 222, 222, 0.7)), rgba(222, 222, 222, 0.7), 0.9;
-    font-family: arial;
     padding: 10px;
 }
 
@@ -82,7 +79,7 @@ display: inline;
     vertical-align: top;
     border: 2px solid #000;
     border-radius: 30px;
-    width: 35%;
+    width: 25%;
     padding: 50px 0;
 }
 
