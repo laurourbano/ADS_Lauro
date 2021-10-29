@@ -8,7 +8,7 @@ nav ul {
 }
 
 nav li {
-    display: inline-block;
+    display: inline;
     font-family: sans-serif;
     margin: 10px 20px;
 }
@@ -57,10 +57,9 @@ body{
     display: inline-block;
     background-image: url(https://image.freepik.com/vetores-gratis/banner-moderno-com-design-abstrato-de-baixo-poli_1048-14340.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
     text-align: center;
     vertical-align: top;
-    border: 2px solid #000;
+    border: 2px solid rgb(20, 22, 138);
     border-radius: 30px;
     width: 25%;
     padding: 50px 0;
