@@ -2,6 +2,9 @@ header{
     background-color: linear-gradient(rgba(222, 222, 222, 0.712), rgba(222, 222, 222, 0.801));
     color: #000;
     display: block;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }
 nav ul {
     text-align: center;
@@ -9,7 +12,6 @@ nav ul {
 nav li {
     display: inline;
     font-family: sans-serif;
-    margin: 20px
 }
 nav a{
     text-transform: uppercase;
@@ -18,15 +20,13 @@ nav a{
 }
 body{
     background-image: linear-gradient(rgba(222, 222, 222, 0.788), rgba(222, 222, 222, 0.89)), url(img/1.jpg);
-    background-size: 100%;
-    background-attachment: fixed;
+    background-size: cover;
     background-color: #000;
-    background-repeat: no-repeat;
-    background-position: center, center;
     background-color: rgba(231, 226, 226, 0.836);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     font-family: sans-serif;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
     box-sizing: border-box;
 }
 .titulo-principal{
@@ -35,22 +35,28 @@ body{
     font-size: 30px;
     text-align: center;
     border-radius: 20px;
-    padding: 2%;
-}
+    }
 .titulos-secundarios {
-    text-align: center;
     font-family: arial;
+    text-align: center;
     font-weight: bold;
     font-size: 20px;
 }
-.cursos {
-    width: 940px;
+main{
+    box-sizing: border-box;
     margin-left: auto;
     margin-right: auto;
+
 }
-.cursos li {
-    display: list-item;
-    display: inline-block;
+main ul{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+
+}
+main li {
+    display: inline-table;
     background-image: url(https://image.freepik.com/vetores-gratis/banner-moderno-com-design-abstrato-de-baixo-poli_1048-14340.jpg);
     background-size: cover;
     text-align: center;
@@ -58,24 +64,22 @@ body{
     border: 2px solid rgba(20, 22, 138, 0.459);
     border-radius: 30px;
     width: 20%;
-    margin: 10px;
+    position: center;
     padding: 10px;
 }
-.cursos img {
+main li:hover{
+    border:2px solid #3118a3; zoom:110%
+}
+main img {
     width: 100px;
     height: 100px;
+    padding: 10px;
 }
-.cursos a {
-    color: rgb(22, 15, 88);
-    text-decoration-line: blink;
-}
-.cursos h2 {
+main h2 {
     font-weight: bold;
-    margin: 10px;
+    padding: 10px;
 }
-.cursos p {
+main p {
     font-size: 16px;
-}
-.cursos li:hover{
-    border:2px solid #0fff00; zoom:110%
+    padding: 10px;
 }
