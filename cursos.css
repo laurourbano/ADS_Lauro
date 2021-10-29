@@ -75,6 +75,9 @@ display: inline;
 
 .cursos li {
     display: inline-block;
+    background-image: url(https://image.freepik.com/vetores-gratis/banner-moderno-com-design-abstrato-de-baixo-poli_1048-14340.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     text-align: center;
     vertical-align: top;
     border: 2px solid #000;
