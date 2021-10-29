@@ -10,7 +10,7 @@ nav ul {
 nav li {
     display: inline;
     font-family: sans-serif;
-    margin: 10px 20px;
+    margin: 20px
 }
 
 nav a{
@@ -22,6 +22,10 @@ nav a{
 
 body{
     background-image: linear-gradient(rgba(222, 222, 222, 0.788), rgba(222, 222, 222, 0.89)), url(img/1.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+    background-color: #000;
+    background-repeat: no-repeat;
     background-position: center, center;
     background-color: rgba(231, 226, 226, 0.836);
     background-repeat: no-repeat;
@@ -53,6 +57,7 @@ body{
 }
 
 .cursos li {
+    display: list-item;
     display: inline-block;
     background-image: url(https://image.freepik.com/vetores-gratis/banner-moderno-com-design-abstrato-de-baixo-poli_1048-14340.jpg);
     background-size: cover;
@@ -60,9 +65,10 @@ body{
     vertical-align: top;
     border: 2px solid rgba(20, 22, 138, 0.459);
     border-radius: 30px;
-    width: 25%;
+    width: 20%;
     margin: 10px;
     padding: 10px;
+    
 }
 
 .cursos img {
@@ -83,3 +89,5 @@ body{
 .cursos p {
     font-size: 16px;
 }
+
+.cursos li:hover{border:2px solid #0fff00; zoom:110%}
