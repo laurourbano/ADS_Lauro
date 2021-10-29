@@ -9,31 +9,32 @@ nav ul {
 
 nav li {
     display: inline-block;
-    padding: 2%;
     font-family: sans-serif;
+    margin: 10px 20px;
 }
 
 nav a{
     text-transform: uppercase;
     color: black;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 20px;
     text-decoration: none;
 }
 
 body{
-    background-image: linear-gradient(rgba(222, 222, 222, 0.788), rgba(222, 222, 222, 0.89)), url(1.jpg);
+    background-image: linear-gradient(rgba(222, 222, 222, 0.788), rgba(222, 222, 222, 0.89)), url(img/1.jpg);
     background-position: center, center;
     background-color: rgba(231, 226, 226, 0.836);
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-family: sans-serif;
+    box-sizing: border-box;
 }
 
 .titulo-principal{
     font-family: arial;
     font-weight: bold;
-    font-size: 26px;
+    font-size: 30px;
     text-align: center;
     border-radius: 20px;
     padding: 2%;
@@ -43,7 +44,7 @@ body{
     text-align: center;
     font-family: arial;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 20x;
     padding: 2%;
 }
 
@@ -63,6 +64,8 @@ body{
     border-radius: 30px;
     width: 25%;
     padding: 50px 0;
+    margin: 30px 20px;
+
 }
 
 .cursos img {
@@ -76,9 +79,8 @@ body{
 }
 
 .cursos h2 {
-    font-size: 22px;
     font-weight: bold;
-    padding: 0 10px;
+margin: 0 0 15px;
 }
 
 .cursos p {

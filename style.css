@@ -24,6 +24,7 @@ body{
     font-family: arial;
     background-color: linear-gradient(rgba(222, 222, 222, 0.7), rgba(222, 222, 222, 0.7)), rgba(222, 222, 222, 0.7), 0.9;
     font-family: arial;
+    box-sizing: border-box;
 }
 
 .media-object{
