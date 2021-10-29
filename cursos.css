@@ -4,8 +4,8 @@ header{
 }
 
 nav ul {
-    position: relative;
     padding: 2%;
+    text-align: center;
 }
 
 nav li {
@@ -19,7 +19,6 @@ nav a{
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
-    margin: 0 0 0 10px;
 }
 
 body{
@@ -41,11 +40,9 @@ display: inline;
     font-family: arial;
     font-weight: bold;
     font-size: 26px;
-    margin-left: 120px;
+    text-align: center;
     border-radius: 20px;
-    opacity: 90%;
-    color: rgb(0, 0, 0);
-}
+]}
 
 .titulos-secundarios {
     text-align: center;
@@ -57,12 +54,7 @@ display: inline;
 .box{
     border-radius: 30px;
     max-width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 2%;
-    opacity: 90%;
     background-color: linear-gradient(rgba(222, 222, 222, 0.7), rgba(222, 222, 222, 0.7)), rgba(222, 222, 222, 0.7), 0.9;
-    padding: 10px;
 }
 
 .cursos {
