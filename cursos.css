@@ -3,24 +3,19 @@ header{
     color: #000;
     display: block;
 }
-
 nav ul {
     text-align: center;
 }
-
 nav li {
     display: inline;
     font-family: sans-serif;
     margin: 20px
 }
-
 nav a{
     text-transform: uppercase;
     font-weight: bold;
     font-size: 20px;
-    text-decoration: none;
 }
-
 body{
     background-image: linear-gradient(rgba(222, 222, 222, 0.788), rgba(222, 222, 222, 0.89)), url(img/1.jpg);
     background-size: 100%;
@@ -34,7 +29,6 @@ body{
     font-family: sans-serif;
     box-sizing: border-box;
 }
-
 .titulo-principal{
     font-family: arial;
     font-weight: bold;
@@ -43,20 +37,17 @@ body{
     border-radius: 20px;
     padding: 2%;
 }
-
 .titulos-secundarios {
     text-align: center;
     font-family: arial;
     font-weight: bold;
     font-size: 20px;
 }
-
 .cursos {
     width: 940px;
     margin-left: auto;
     margin-right: auto;
 }
-
 .cursos li {
     display: list-item;
     display: inline-block;
@@ -69,26 +60,22 @@ body{
     width: 20%;
     margin: 10px;
     padding: 10px;
-    
 }
-
 .cursos img {
     width: 100px;
     height: 100px;
 }
-
 .cursos a {
     color: rgb(22, 15, 88);
     text-decoration-line: blink;
 }
-
 .cursos h2 {
     font-weight: bold;
     margin: 10px;
 }
-
 .cursos p {
     font-size: 16px;
 }
-
-.cursos li:hover{border:2px solid #0fff00; zoom:110%}
+.cursos li:hover{
+    border:2px solid #0fff00; zoom:110%
+}
