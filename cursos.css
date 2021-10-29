@@ -5,8 +5,8 @@ header{
 
 nav ul {
     position: absolute;
-    top: 80px;
-    left: 220px;
+    top: 70px;
+    right: 10%;
 }
 
 nav li {
@@ -20,7 +20,7 @@ nav a{
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
-    margin: 0 0 0 15px;
+    margin: 0 0 0 10px;
 }
 
 body{
