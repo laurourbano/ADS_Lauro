@@ -97,8 +97,7 @@ em strong {
 }
 
 .container {
-    justify-content: space-evenly;
-    max-width: 100%;
+    justify-content: center;
     display: flex;
     flex-flow: row wrap;
     color: rgb(30, 29, 31);
