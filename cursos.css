@@ -15,7 +15,6 @@ nav li {
 
 nav a{
     text-transform: uppercase;
-    color: black;
     font-weight: bold;
     font-size: 20px;
     text-decoration: none;
@@ -44,13 +43,13 @@ body{
     text-align: center;
     font-family: arial;
     font-weight: bold;
-    font-size: 20x;
-    padding: 2%;
+    font-size: 20px;
 }
 
 .cursos {
     width: 940px;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .cursos li {
@@ -59,27 +58,26 @@ body{
     background-size: cover;
     text-align: center;
     vertical-align: top;
-    border: 2px solid rgb(20, 22, 138);
+    border: 2px solid rgba(20, 22, 138, 0.459);
     border-radius: 30px;
     width: 25%;
-    padding: 50px 0;
-    margin: 30px 20px;
-
+    margin: 10px;
+    padding: 10px;
 }
 
 .cursos img {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
 }
 
 .cursos a {
-    color: rgb(31, 23, 99);
-    text-decoration: none;
+    color: rgb(22, 15, 88);
+    text-decoration-line: blink;
 }
 
 .cursos h2 {
     font-weight: bold;
-margin: 0 0 15px;
+    margin: 10px;
 }
 
 .cursos p {
