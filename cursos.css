@@ -66,3 +66,38 @@ display: inline;
     font-family: arial;
     padding: 10px;
 }
+
+.cursos {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.cursos li {
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    border: 1px solid #000;
+    border-radius: 30px;
+    width: 40%;
+    padding: 50px 0;
+}
+
+.cursos img {
+    width: 150px;
+    height: 150px;
+}
+
+.cursos a {
+    color: rgb(31, 23, 99);
+    text-decoration: none;
+}
+
+.cursos h2 {
+    font-size: 22px;
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+.cursos p {
+    font-size: 16px;
+}
