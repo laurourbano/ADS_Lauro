@@ -60,13 +60,10 @@ body{
     left: 0;
     opacity: 80%;
     border-radius: 50%;
-    display: inline;
     margin-left: auto;
     margin-right: auto;
-    padding: 0;
-    margin: 10px;
-    max-width: 150px;
-    max-height: 150px;
+    max-width: 100px;
+    max-height: 100px;
 }
       
 p{
