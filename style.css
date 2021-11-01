@@ -10,7 +10,7 @@ body{
     background-color: rgba(231, 226, 226, 0.836);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    font-family: arial;
+    font-family: Verdana, Tahoma, sans-serif;
 }
 nav ul{
     text-align: center;
