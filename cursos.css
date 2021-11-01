@@ -10,7 +10,7 @@ h1{
     padding: 30px;
 }
 nav ul {
-    text-align: center;
+    text-align: right;
 }
 nav li {
     display: inline-block;
