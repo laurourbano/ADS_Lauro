@@ -48,7 +48,6 @@ nav a{
     width: 50px;
     height: 50px;
     border-radius: 15px;
-    font-family: arial;
 }
 .titulo_principal{
     text-align: center;
@@ -60,7 +59,6 @@ nav a{
 }
 .titulo_centralizado{
     text-align: center;
-    font-family: arial;
     font-weight: bold;
     vertical-align: center;
     font-size: 22px;
@@ -76,26 +74,22 @@ p{
     font-size: 16px;
     line-height: 1.5;
     text-align: justify;
-    font-family: arial;
     margin: 0 30px 10px 30px;
 }
 #destaque{
     font-size: 16px;
     line-height: 1.5;
-    font-family: arial;
     display: inline-block;
     padding: 10px;
 }
 em strong{
     color: rgb(3, 0, 8);
-    font-family: arial;
     font-weight: bold;
 }
 .curriculo{
     font-weight: bold;
 }
 .itens{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 .container{
@@ -103,7 +97,6 @@ em strong{
     display: flex;
     flex-flow: row wrap;
     color: rgb(30, 29, 31);
-    font-family: arial;
     font-size: 18px;
     margin: 0, 0, 0, 15px;
 }
@@ -122,5 +115,5 @@ em strong{
     margin-right: 20px;
 }  
 .links img:hover{
-        border:2px solid #ccc; zoom:105%
+    border:2px solid #ccc; zoom:105%
 }
