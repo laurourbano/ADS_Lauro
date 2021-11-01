@@ -1,11 +1,12 @@
 body{
     background-image: linear-gradient(rgba(222, 222, 222, 0.788), rgba(222, 222, 222, 0.89)), url(img/1.jpg);
-    background-position: center, center;
     background-size: cover;
+    background-color: #000;
     background-color: rgba(231, 226, 226, 0.836);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     font-family: Verdana, Tahoma, sans-serif;
+    width: 90%;
+    margin: 0 auto;
+    box-sizing: border-box;
 }
 header{
     background-color: linear-gradient(rgba(222, 222, 222, 0.712), rgba(222, 222, 222, 0.801));
@@ -19,10 +20,10 @@ header{
     display: inline-block;
     position: absolute;
     top:45px;
-    left: 80px;
+    left: 120px;
     border-radius: 50%;
-    max-width: 100px;
-    max-height: 100px;
+    max-width: 150px;
+    max-height: 150px;
 }
 nav ul{
     text-align: right;
@@ -41,7 +42,6 @@ nav a{
     color:#000;
     padding: 20px;
 }
-
 .media-object{
     margin-left: auto;
     margin-right: auto;
@@ -51,11 +51,10 @@ nav a{
 }
 .titulo_principal{
     text-align: center;
-    font-family: arial;
-    font-weight: bold;
     font-size: 30px;
-    border-radius: 20px;
-    opacity: 90%;
+}
+h1{
+    padding: 30px;
 }
 .titulo_centralizado{
     text-align: center;
