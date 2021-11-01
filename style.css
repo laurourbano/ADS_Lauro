@@ -118,11 +118,11 @@ em strong {
 }
 
 .links img{
-    border: 1px solid #422e8b15;
+    border: 1px solid #2f268015;
     padding: 2%;
     margin-right: 20px;
 }  
 
 .links img:hover{
-        border:2px solid #ccc; zoom:110%
+        border:2px solid #ccc; zoom:105%
 }
