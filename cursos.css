@@ -5,18 +5,25 @@ header{
     width: 90%;
     margin-left: auto;
     margin-right: auto;
+    padding: 20px;
+}
+h1{
+    padding: 30px;
 }
 nav ul {
     text-align: center;
 }
 nav li {
-    display: inline;
+    display: inline-block;
     font-family: sans-serif;
 }
 nav a{
     text-transform: uppercase;
     font-weight: bold;
     font-size: 20px;
+    text-decoration: none;
+    color:#000;
+    padding: 20px;
 }
 body{
     background-image: linear-gradient(rgba(222, 222, 222, 0.788), rgba(222, 222, 222, 0.89)), url(img/1.jpg);
@@ -68,7 +75,7 @@ main li {
     padding: 10px;
 }
 main li:hover{
-    border:2px solid #3118a3; zoom:110%
+    border:2px solid #3118a3; zoom:105%
 }
 main img {
     width: 100px;
