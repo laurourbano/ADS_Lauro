@@ -17,10 +17,7 @@ header{
     padding: 20px;
 }
 .foto{
-    display: inline-block;
-    position: absolute;
-    top:45px;
-    left: 120px;
+    position: relative;
     border-radius: 50%;
     max-width: 150px;
     max-height: 150px;
@@ -41,13 +38,6 @@ nav a{
     text-decoration: none;
     color:#000;
     padding: 20px;
-}
-.media-object{
-    margin-left: auto;
-    margin-right: auto;
-    width: 50px;
-    height: 50px;
-    border-radius: 15px;
 }
 .titulo_principal{
     text-align: center;
@@ -115,4 +105,11 @@ em strong{
 }  
 .links img:hover{
     border:2px solid #ccc; zoom:105%
+}
+.media-object{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
 }
