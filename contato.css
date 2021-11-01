@@ -1,11 +1,20 @@
 body{
     background-image: linear-gradient(rgba(222, 222, 222, 0.788), rgba(222, 222, 222, 0.89)), url(img/1.jpg);
     background-size: cover;
+    background-repeat: repeat-y;
     background-color: #000;
     background-color: rgba(231, 226, 226, 0.836);
     font-family: Verdana, Tahoma, sans-serif;
     width: 90%;
     margin: 0 auto;
+}
+header{
+    background-color: linear-gradient(rgba(222, 222, 222, 0.712), rgba(222, 222, 222, 0.801));
+    color: #000;
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
 }
 h1{
     text-align: center;
@@ -15,6 +24,7 @@ h1{
 }
 nav ul {
     text-align: right;
+    padding: 20px;
 }
 nav li {
     display: inline-block;
