@@ -15,6 +15,7 @@ nav ul {
 nav li {
     display: inline-block;
     font-family: sans-serif;
+    margin: 0 auto;
 }
 nav a{
     text-transform: uppercase;
