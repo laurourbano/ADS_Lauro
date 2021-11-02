@@ -71,12 +71,10 @@ p a{
     padding: 10px;
 }
 em strong{
-    color: #fff;
     font-weight: bold;
 }
 .curriculo{
     font-weight: bold;
-    color: #fff;
 }
 .itens{
     text-align: center;
@@ -85,7 +83,6 @@ em strong{
     justify-content: center;
     display: flex;
     flex-flow: row wrap;
-    color: #fff;
     font-size: 18px;
     margin: 0, 0, 0, 15px;
 }
@@ -95,7 +92,6 @@ em strong{
 .container ul li{
     margin: 0 auto;
     padding: 10px;
-    color: #fff;
 }
 .links img{
     border: 1px transparent;
