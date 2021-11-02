@@ -1,10 +1,10 @@
 body{
-    background: linear-gradient(to right, rgba(38, 28, 175, 0.932),rgba(2, 3, 66, 0.932));
+    background: linear-gradient(to right, rgb(27, 20, 107),rgb(21, 21, 68));
     font-family: Verdana, Tahoma, sans-serif;
     width: 90%;
     margin: 0 auto;
     box-sizing: border-box;
-    color: #fff;
+    color: rgba(180, 216, 223, 0.911);
 
 }
 header{
