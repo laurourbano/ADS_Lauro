@@ -20,8 +20,10 @@ header{
     max-height: 150px;
 }
 nav ul{
+    width: 95%;
     text-align: right;
     padding: 10px 0;
+    vertical-align: middle;
 }
 nav li{
     display: inline-block;
