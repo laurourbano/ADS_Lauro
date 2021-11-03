@@ -37,6 +37,10 @@ nav a{
     text-decoration: none;
     color:#BBB;
     padding: 10px 5px;
+    border-radius: 10px;
+}
+nav a:hover{
+    background: linear-gradient(to right, rgb(79, 30, 158),rgb(25, 116, 177));
 }
 .titulo_principal{
     text-align: center;
@@ -62,6 +66,10 @@ p{
 }
 p a{
     color: #bbb;
+}
+p a:hover{
+    background: linear-gradient(to right, rgb(79, 30, 158),rgb(25, 116, 177));
+    border-radius: 10px;
 }
 #destaque{
     font-size: 16px;
@@ -96,10 +104,10 @@ em strong{
     border: 1px transparent;
     padding: 2%;
     margin: 0 auto;
-
 }  
 .links img:hover{
-    border:2px transparent; zoom:105%
+    border: none;
+    background: linear-gradient(to right, rgb(79, 30, 158),rgb(25, 116, 177));
 }
 .media-object{
     width: 50px;
