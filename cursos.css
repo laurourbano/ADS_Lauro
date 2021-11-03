@@ -12,6 +12,14 @@ header{
     margin: 0 auto;
     padding: 20px;
 }
+fieldset{
+    border: 1px solid rgba(180, 216, 223, 0.911);
+    border-radius: 10px;
+    padding: 20px 0;
+}
+legend{
+    text-align: center;
+}
 h1{
     padding: 30px;
 }
@@ -65,7 +73,7 @@ main li {
     margin: 20px 10px;
 }
 main li a:hover{
-    border:1px solid #3118a300; zoom:105%;
+    border:1px solid #3118a300;
 }
 main li:hover{
     border:2px solid #a57214b2;
