@@ -59,7 +59,6 @@ main{
     box-sizing: border-box;
 }
 main ul{
-    width: 90%;
     margin: 0 auto;
     padding: 10px;
 }
