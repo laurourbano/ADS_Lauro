@@ -113,7 +113,17 @@ footer{
     margin: 0 auto;
 }
 
-@media screen {
-    max-width: 500px;
-    
+@media (max-width: 600px) {
+    main ul{
+        display: grid;
+        grid-auto-rows: 300px;
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+        align-items: center;
+        text-align: center;
+        border-radius: 10px;
+        padding: 10px;
+    }
 }
