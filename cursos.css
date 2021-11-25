@@ -1,13 +1,14 @@
 body{
     background: linear-gradient(to right, rgb(63, 21, 131),rgb(12, 78, 122));
+    background-size: contain;
     font-family: Arial, Helvetica, sans-serif;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     box-sizing: border-box;
     color: rgba(180, 216, 223, 0.911);
 }
 header{
-    display: block;
+    display: inline-block;
     width: 100%;
     margin: 0 auto;
     padding: 20px;
@@ -17,7 +18,6 @@ fieldset{
     border-radius: 10px;
     padding: 0;
     background: rgb(63, 61, 61);
-    align-items: center;
     width: 100%;
 }
 legend{
@@ -27,16 +27,16 @@ legend{
     padding: 20px;
 }
 h1{
-    padding: 30px;
+    padding: 0;
 }
 nav ul{
     text-align: right;
-    padding: 10px 0;
+    padding: 10px;
 }
 nav li{
-    display: inline-flex;
+    display: inline-block;
     font-family: sans-serif;
-    margin: 10px 0;
+    margin: 10px;
 
 }
 nav a{
@@ -114,16 +114,38 @@ footer{
 }
 
 @media (max-width: 600px) {
+    body {
+        background-repeat: no-repeat;
+        max-width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+    }
+    header {
+        box-sizing: border-box;
+        margin: 10px;
+        padding: 0;
+    }
     main ul{
         display: grid;
         grid-auto-rows: 300px;
         grid-template-columns: 1fr 1fr;
-        width: 100%;
+        max-width: 100%;
         margin: 0 auto;
         padding: 0;
         align-items: center;
         text-align: center;
         border-radius: 10px;
-        padding: 10px;
+        padding: auto;
+        box-sizing: border-box;
     }
+    fieldset{
+        border: 1px solid rgb(102, 108, 109);
+        border-radius: 10px;
+        padding: 0;
+        background: rgb(63, 61, 61);
+        align-items: center;
+        max-width: 100%;
+        vertical-align: middle;
+    }
+    
 }
