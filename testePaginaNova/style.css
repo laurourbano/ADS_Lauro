@@ -2,70 +2,18 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-#pagina {
-    display: grid;
-    grid-template-areas: "header header"
-                            "main main"
-                            "footer footer";
-}
-.primeiro-bloco {
-    background-color: red;
-    height: 5vh;
-    width: 100%;
-    font-size: 1em;
-    color: white;
-    grid-area: header;
-    padding: 10px;
+body {
+    background-color: rgb(77, 26, 124);
 }
 
-.primeiro-bloco nav ul {
-    display: flex;
-}
-
-.primeiro-bloco nav li {
-
-    list-style-type: none;
-    color: white;
-    margin: 5px;
-    padding: 5px;
-}
-
-.primeiro-bloco nav a {
-    text-decoration: none;
-}
-.segundo-bloco {
-    background-color: blue;
-    height: 90vh;
-    width: 100%;
-    font-size: 1em;
-    color: white;
-    grid-area: main;
-}
-h2 {
-    padding: 10px;
-}
 p {
-    padding: 10px;
-}
-.segundo-bloco a {
-    text-decoration: none;
-    color: white;
-}
-
-.terceiro-bloco {
-    background-color: purple;
-    height: 5vh;
-    width: 100%;
-    font-size: 1em;
-    color: white;
-    grid-area: footer;
-    text-align: center;
-}
-
-.terceiro-bloco a {
-    text-decoration: none;
-    color: white;
+    padding: 15px 0;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 30px;
+    vertical-align: middle;
+    color: aliceblue;
 }
