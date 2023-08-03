@@ -1,4 +1,4 @@
-# Adslauro - Ambiente de Treinamento em HTML e CSS
+# Ambiente de Treinamento em HTML e CSS
 
 Bem-vindo ao Adslauro, meu ambiente de treinamento em HTML e CSS! Aqui estão meus projetos de rascunhos e treinamentos para Flexbox e Grid, além de testes de responsividade e adaptabilidade.
 
